@@ -5,7 +5,7 @@ import csv  # Used to manage csv file
 filepath = r"C:\Users\sharm\Downloads\unemploymentrateinindia\Unemployment_Rate_M_Total.csv"  # My computers filepath to downloaded csv
 df = pd.read_csv(filepath)
 
-print("Find the unemployment rate and number of people employed in any state in India from 2020 Jan, to 2023 Jan.")
+print("Find the unemployment rate in any state in India from 2020 Jan, to 2023 Jan.")
 
 state = input("Enter the state's name: ")
 year = int(input("Enter the year (2020 to 2023): "))
